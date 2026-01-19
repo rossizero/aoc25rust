@@ -1,0 +1,8 @@
+[package]
+name = "ten"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+utils = { path = "../utils" }
+tokio = { version = "1.40", features = ["full"] }
